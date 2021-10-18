@@ -5,36 +5,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The International 2022</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <div class="upper-nav"></div>
     <div class="navbar">
-      <img src="images/dotaLogoWhite.png" alt="">
+      <a href="index.html"><img class="dotaLogo" src="images/dotaLogoWhite.png" alt=""></a>
       <ul class="navMenu">
-        <li class="navWords">About</li>
-        <li class="navWords">Program</li>
-        <li class="navWords">Join</li>
-        <li class="navWords">Sponsor</li>
-        <li class="navWords">News</li>
-        <li class="navWords special">The International 2022</li>
+        <li class="navWords"><a href="" class="linkedList">About</a></li>
+        <li class="navWords"><a href="" class="linkedList">Program</a></li>
+        <li class="navWords"><a href="" class="linkedList">Join</a></li>
+        <li class="navWords"><a href="" class="linkedList">ponsor</a></li>
+        <li class="navWords"><a href="" class="linkedList">News</a></li>
+        <li class="navWords special"><a href="" class="linkedList">The International 2022</a></li>
       </ul>
     </div>
   </header>
   <section class="homePage">
     <h1 class="homeH1">"Hello! Dota Fans"</h1>
-    <h2 class="homeH2">The</h2>
-    <h2 class="homeH2">International</h2>
-    <h2 class="homeH2">2022</h2>
-    <p class="HomePara">Tune into the biggest tournament of the year — broadcasting live from Bucharest with the Aegis of Champions on the line.</p>
+    <h2 class="homeH2">The International 2021</h2>
+    <p class="homePara">Tune into the biggest tournament of the year — broadcasting live from Bucharest with the Aegis of Champions on the line.</p>
     <div class="homeInfo">
       <h3 class="homeH3">2022.10.07(THU) ~ 17(SUN)</h3>
-      <p class="VenuePara">@Arena Naţională</p>
+      <p class="venuePara">@Arena Naţională</p>
     </div>
   </section>
   <section class="program">
     <h1>Main Program</h1>
+    <hr >
     <div class="prog one">
       <img src="images/program1.png" alt="">
       <h1>Lecture</h1>
@@ -60,7 +64,7 @@
       <h1>CC Ignite</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, voluptates.</p>
     </div>
-    <h2>See The Whole Program</h2>
+    <h2 class="seeProgram">See The Whole Program</h2>
     <button class="joinButton">Attend The International 2022</button>
   </section>
   <section class="speakers">
@@ -72,6 +76,7 @@
       <div class="speakersInfo">
         <h1>Sir ActionSlacks</h1>
         <h2>Mad Man</h2>
+        <hr class="smallHr">
         <p>Jake "SirActionSlacks" Kanner is a content creator and event organizer. He has been referred to as many things from crazy to Ice Frog himself.</p>
       </div>
     </div>
@@ -82,6 +87,7 @@
       <div class="speakersInfo">
         <h1>Insania</h1>
         <h2>Team Liquid Captain</h2>
+        <hr class="smallHr">
         <p>Aydin "iNSaNiA" Sarkohi is Swedish player. He is a hard support for Team Liquid and team captain. He reached 10k MMR in 2021</p>
       </div>
     </div>
@@ -92,6 +98,7 @@
       <div class="speakersInfo">
         <h1>Ephey</h1>
         <h2>Dota Streamer</h2>
+        <hr class="smallHr">
         <p>Mira "Ephey" Riad is a dota streamer, commentator and analyst. Is not Dota Bae. Best known for saying "Eh ha ha ha ha"</p>
       </div>
     </div>
@@ -102,6 +109,7 @@
       <div class="speakersInfo">
         <h1>Jenkins</h1>
         <h2>Dota Player, Streamer and Content Creator</h2>
+        <hr class="smallHr">
         <p>Andrew "Jenkins" Jenkins is a homeless man who advises people on how best to lose at dota.</p>
       </div>
     </div>
@@ -112,6 +120,7 @@
       <div class="speakersInfo">
         <h1>Sheever</h1>
         <h2>Host and Content Creator</h2>
+        <hr class="smallHr">
         <p>Jorien "Sheever" van der Heijden is Dota Bae.</p>
       </div>
     </div>
@@ -128,17 +137,18 @@
   </section>
   <section class="partner">
     <h1>Partner</h1>
-    <div>
-      <img src="images/mozilaLogo.png" alt="">
-      <img src="images/nvidiaLogo.svg" alt="">
-      <img src="images/originLogo.svg" alt="">
-      <img src="images/airbnbLogo.png" alt="">
-      <img src="images/amdLogo.svg" alt="">
+    <hr>
+    <div class="partnerLogos">
+      <img class="partnerLogo" src="images/mozilaLogo.png" alt="">
+      <img class="partnerLogo" src="images/nvidiaLogo.svg" alt="">
+      <img class="partnerLogo" src="images/originLogo.svg" alt="">
+      <img class="partnerLogo" src="images/airbnbLogo.png" alt="">
+      <img class="partnerLogo" src="images/amdLogo.svg" alt="">
     </div>
   </section>
   <footer>
-    <img src="images/dotaLogoWhite.png" alt="">
-    <div>2021 Dota No Rights Reserverd</div>
+    <img class="dotaLogo" src="images/dotaLogoWhite.png" alt="">
+    <div>2021 Dota. No Rights Reserverd</div>
   </footer>
 
   

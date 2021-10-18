@@ -1,1 +1,211 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.homePage {
+  background-image:url(images/dotaBackgroundDark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.homeH1 {
+  font-size: 2.5rem;
+  font-family: 'Roboto', serif;
+  color: rgb(157, 240, 240);
+  margin-bottom: 0;
+  margin-top: 8rem;
+}
+
+.homeH2 {
+  font-size: 3.5rem;
+  font-family: 'Lato', serif;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: url(images/dotaTextBackground.jpg);
+  margin-top: 0;
+}
+
+.homePara {
+  border: 2px solid rgb(157, 240, 240);
+  font-family: 'Lato', serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  padding: 10px;
+}
+
+.homeInfo {
+  border: 2px solid rgb(157, 240, 240);
+  margin-bottom: 4.5rem;
+}
+
+.homeH3 {
+  font-family: 'Noto Sans', serif;
+  margin: 10px 0 0 0 ;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.venuePara {
+  margin: 0 0 10px 0;
+  font-size: 1.5rem;
+}
+
+.program {
+  background-image: url(images/repeat-bg.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: 'Lato', serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+hr {
+  border: 0;
+  border-top: 3px solid rgb(250, 105, 61);
+  width: 60px;
+  margin-bottom: 3rem;
+}
+
+.prog {
+  display: flex;
+  font-family: 'Lato', serif;
+  background-color: rgba(68, 68, 68, 0.64);
+  max-width: 85%;
+  margin: 10px 0 10px 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.prog img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.prog h1 {
+  font-size: 1.5rem;
+  color: rgb(250, 105, 61);
+  font-weight: bold;
+}
+
+.prog p {
+  font-size: 1.2rem;
+  color: #fff;
+  width: 55%;
+}
+
+.seeProgram {
+  display: none;
+}
+
+.joinButton {
+  font-size: 1.5rem;
+  font-family: 'Noto Sans', serif;
+  font-weight: lighter;
+  color: #fff;
+  background-color: rgb(250, 105, 61);
+  border: 1px solid rgb(250, 105, 61);
+  padding: 2.5rem;
+  margin: 2.5rem 0 3.5rem 0;
+}
+
+.speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 0.7rem;
+}
+
+.speakersInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.speakersInfo h1 {
+  color: #000;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.speakersInfo h2 {
+  color: rgb(250, 105, 61);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.speakersInfo hr {
+  border-top: 1px dashed #000;
+  width: 30px;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+.speakersInfo p{
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 1rem;
+}
+
+.partner {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner h1 {
+  margin-top: 2.5rem;
+}
+
+.partnerLogos {
+ display: inline-block;
+ text-align: center;
+ margin-bottom: 3.5rem;
+}
+
+.partnerLogo {
+  height: 4rem;
+  width: 8rem;
+  margin: 5px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dotaLogo {
+  height: 5rem;
+  width: 5rem;
+}
+
+footer div {
+  font-family: 'Roboto', serif;
+}
 
