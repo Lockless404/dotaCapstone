@@ -5,6 +5,120 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+.upper-nav {
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(54, 54, 54);
+}
+
+.upperLi {
+  list-style: none;
+  margin: 0 8px 0 8px;
+}
+
+.upperLink {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.upperNavList {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6rem;
+}
+
+.socialIcons {
+  height: 1rem;
+  width: 1rem;
+}
+
+.navbar {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navMenu {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  right: 0;
+  top: 8vh;
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+
+.nav-active {
+  display: flex;
+  transform: translateX(0);
+}
+
+.navWords {
+  list-style: none;
+  font-family: 'Lato', serif;
+  font-size: 0.9rem;
+}
+
+.linkedList {
+  text-decoration: none;
+  color: #000;
+}
+
+.linkedList:hover {
+  color: rgb(250, 105, 61);
+}
+
+.special {
+  border: 5px solid rgb(250, 105, 61);
+  padding: 0.7rem;
+}
+
+.top {
+  margin-left: 6rem;
+}
+
+.menuIcon div {
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+  margin: 3px;
+  transition: all 0.3s ease;
+}
+
+.menuIcon {
+  cursor: pointer;
+  margin-right: 6rem;
+  width: 1.8rem;
+  height: 1.5rem;
+}
+
+.turn .line1 {
+  transform: rotate(-45deg) translate(-3px, 4px);
+}
+
+.turn .line2 {
+  opacity: 0;
+}
+
+.turn .line3 {
+  transform: rotate(45deg) translate(-3px, -4px);
 }
 
 .homePage {
@@ -102,19 +216,23 @@ hr {
   padding: 0.7rem;
 }
 
+.prog:hover {
+  border: 1px solid #fff;
+}
+
 .prog img {
   height: 3.5rem;
   width: 3.5rem;
 }
 
 .prog h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: rgb(250, 105, 61);
   font-weight: bold;
 }
 
 .prog p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #fff;
   width: 55%;
 }
@@ -229,7 +347,28 @@ footer div {
   font-family: 'Roboto', serif;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
+  .upper-nav {
+    display: flex;
+  }
+  
+  .navMenu {
+    margin-right: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    position:unset;
+    height: unset;
+    display: flex;
+    transform: unset;
+  }
+
+  .menuIcon {
+    display: none;
+  }
+
   .homePage {
     width: 100%;
   }
@@ -277,10 +416,6 @@ footer div {
 
   .prog p {
     margin: 10px 0 10px 0;
-  }
-
-  .prog:hover {
-    border: 1px solid #fff;
   }
 
   .joinButton{
