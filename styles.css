@@ -14,7 +14,7 @@ body {
   background-size: cover;
   background-position: center center;
   color: rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .homeH1 {
@@ -47,6 +47,7 @@ body {
 .homeInfo {
   border: 2px solid rgb(157, 240, 240);
   margin-bottom: 4.5rem;
+  padding: 10px;
 }
 
 .homeH3 {
@@ -66,6 +67,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 h1 {
@@ -82,14 +84,21 @@ hr {
   margin-bottom: 3rem;
 }
 
+.allPrograms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
 .prog {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: 'Lato', serif;
   background-color: rgba(68, 68, 68, 0.64);
   max-width: 85%;
   margin: 10px 0 10px 0;
-  align-items: center;
-  justify-content: space-between;
   padding: 0.7rem;
 }
 
@@ -131,9 +140,19 @@ hr {
   align-items: center;
 }
 
+.speakers h1 {
+  color: #000;
+}
+
+.allSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .speaker {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 85%;
   padding: 0.7rem;
@@ -175,6 +194,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .partner h1 {
@@ -209,3 +229,85 @@ footer div {
   font-family: 'Roboto', serif;
 }
 
+@media (min-width: 1000px) {
+  .homePage {
+    width: 100%;
+  }
+
+  .homeH1 {
+    font-size: 4.5rem;
+    margin-left: 3rem;
+  }
+
+  .homeH2 {
+    font-size: 6rem;
+    line-height: 6.5rem;
+    margin-left: 3rem;
+  }
+
+  .homePara {
+    width: 60%;
+    margin-left: 3rem;
+  }
+
+  .homeInfo {
+    width: 60%;
+    margin-left: 3rem;
+  }
+
+  .program {
+    width: 100%;
+  }
+
+  .allPrograms {
+    flex-direction: row;
+    padding: 0 4rem 0 4rem;
+  }
+
+  .prog {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0.25rem 0 0.25rem;
+  }
+
+  .prog h1 {
+    margin: 10px 0 10px 0;
+  }
+
+  .prog p {
+    margin: 10px 0 10px 0;
+  }
+
+  .prog:hover {
+    border: 1px solid #fff;
+  }
+
+  .joinButton{
+    display: none;
+  }
+
+  .seeProgram {
+    display: inline;
+    color: rgb(250, 105, 61);
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin: 4rem 0 6rem 0;
+    cursor: pointer;
+  }
+
+  .allSpeakers {
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .speaker {
+    flex-basis: 40%;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+}
