@@ -1,6 +1,7 @@
 const menuIcon = document.querySelector('.menuIcon');
 const navMenu = document.querySelector('.navMenu');
 const navWords = document.querySelectorAll('.navWords');
+const speakers = document.querySelector('.allSpeakers')
 
 const speakerInfo = [
   {
@@ -51,4 +52,23 @@ for (let i = 0; i < navWords.length; i += 1) {
     menuIcon.classList.remove('turn');
     navMenu.classList.remove('nav-active');
   });
+}
+
+function render(n) {
+  speakers.innerHTML += `
+<div class="speaker one">
+  <div class="speakersImg">
+    <img src="${speakerInfo[n].imageSrc}" alt="">
+  </div>
+  <div class="speakersInfo">
+    <h1>${speakerInfo[n].name}</h1>
+    <h2>${speakerInfo[n].imageSrc}</h2>
+    <hr class="smallHr">
+    <p>${speakerInfo[n].paragraph}</p>
+  </div>
+</div>`;
+}
+
+for (let i = 0; i < speakerInfo.length; i +=1) {
+  render(i)
 }
