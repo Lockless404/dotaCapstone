@@ -47,6 +47,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 8vh;
 }
 
 .navMenu {
@@ -91,12 +92,13 @@ header {
 }
 
 .top {
+  display: none;
   margin-left: 6rem;
 }
 
 .menuIcon div {
-  width: 20px;
-  height: 2px;
+  width: 30px;
+  height: 5px;
   background-color: #000;
   margin: 3px;
   transition: all 0.3s ease;
@@ -104,13 +106,13 @@ header {
 
 .menuIcon {
   cursor: pointer;
-  margin-right: 6rem;
+  margin-left: 1.5rem;
   width: 1.8rem;
   height: 1.5rem;
 }
 
 .turn .line1 {
-  transform: rotate(-45deg) translate(-3px, 4px);
+  transform: rotate(-45deg) translate(-7px, 8px);
 }
 
 .turn .line2 {
@@ -131,6 +133,22 @@ header {
   padding: 2rem;
 }
 
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(images/dotaBackgroundDark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center center;
+  color: rgb(255, 255, 255);
+  padding: 8rem;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .homeH1 {
   font-size: 2.5rem;
   font-family: 'Roboto', serif;
@@ -139,13 +157,29 @@ header {
   margin-top: 8rem;
 }
 
+.aboutH1 {
+  font-size: 2.5rem;
+  font-family: 'Roboto', serif;
+  color: rgb(157, 240, 240);
+  margin-bottom: 0;
+}
+
 .homeH2 {
   font-size: 3.5rem;
   font-family: 'Lato', serif;
   font-weight: 900;
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: url(images/dotaTextBackground.jpg);
+  background-position: center center;
+  margin-top: 0;
+}
+
+.aboutH2 {
+  font-size: 3.5rem;
+  font-family: 'Lato', serif;
+  font-weight: 900;
+  color: rgb(157, 240, 240);
   margin-top: 0;
 }
 
@@ -158,10 +192,42 @@ header {
   padding: 10px;
 }
 
+.aboutPara {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.801);
+  font-family: 'Lato', serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #000;
+  padding: 10px;
+}
+
+.aboutParaTwo {
+  font-family: 'Lato', serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 0 6.5rem 0 6.5rem;
+  margin-bottom: 5px;
+}
+
 .homeInfo {
   border: 2px solid rgb(157, 240, 240);
   margin-bottom: 4.5rem;
   padding: 10px;
+}
+
+.aboutInfo {
+  margin-top: 2rem;
+}
+
+.aboutMail {
+  font-family: 'Lato', serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: #fff;
 }
 
 .homeH3 {
@@ -252,6 +318,33 @@ hr {
   margin: 2.5rem 0 3.5rem 0;
 }
 
+.logoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 100%;
+}
+
+.logoPage h1 {
+  color: #000;
+}
+
+.logoPage p {
+  font-family: 'Lato', serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 10px;
+  margin-bottom: 4rem;
+}
+
+.dotaLogoRed {
+  border: 1px solid rgba(0, 0, 0, 0.123);
+  padding: 3rem 7.3rem 3rem 7.3rem;
+}
+
 .speakers {
   display: flex;
   flex-direction: column;
@@ -307,7 +400,67 @@ hr {
   line-height: 1rem;
 }
 
+.pastPage {
+  box-sizing: border-box;
+  padding: 2rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.123);
+  text-align: center;
+  width: 100%;
+}
+
+.pastPage h1 {
+  color: #000;
+}
+
+.pastPage p {
+  font-family: 'Lato', serif;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 10px;
+  margin-bottom: 4rem;
+}
+
+.past {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-position: center center;
+  margin: 10px;
+  box-shadow: inset 0 0 0 1000px rgba(250, 105, 61, 0.6);
+}
+
+.past h1{
+  font-size: 3rem;
+  font-family: 'Noto sans', serif;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.past p {
+  color: #fff;
+  margin-top: 0;
+}
+
+.twentyOne {
+  background-image: url(images/2021.jpg);
+}
+
+.nineteen {
+  background-image: url(images/2019.jpg);
+}
+
 .partner {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.partnerA {
   background-color: rgb(54, 54, 54);
   display: flex;
   flex-direction: column;
@@ -326,8 +479,8 @@ hr {
 }
 
 .partnerLogo {
-  height: 4rem;
-  width: 8rem;
+  height: 6rem;
+  width: 12rem;
   margin: 5px;
 }
 
@@ -351,6 +504,10 @@ footer div {
   .upper-nav {
     display: flex;
   }
+
+  .top {
+    display: unset;
+  }
   
   .navMenu {
     margin-right: 6rem;
@@ -371,6 +528,7 @@ footer div {
 
   .homePage {
     width: 100%;
+    margin-top: 6rem;
   }
 
   .homeH1 {
@@ -443,6 +601,57 @@ footer div {
 
   footer {
     justify-content: center;
+  }
+
+  .aboutPage {
+    padding-top: 15rem;
+  }
+
+  .aboutH1 {
+    display: none;
+  }
+
+  .aboutH2 {
+    font-size: 6rem;
+  }
+
+  .aboutPara {
+    width: 65%;
+    padding: 2rem;
+  }
+
+  .logoPage p {
+    width: 65%;
+  }
+
+  .pastPage {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .thePast {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+
+  .past {
+    width: 35vw;
+  }
+
+  .partnerA {
+    display: none;
+  }
+
+  footer {
+    background-color: #000;
+  }
+
+  footer div {
+    color: #fff;
+    font-weight: 900;
   }
 
 }
