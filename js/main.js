@@ -62,7 +62,7 @@ function render(n) {
   </div>
   <div class="speakersInfo">
     <h1>${speakerInfo[n].name}</h1>
-    <h2>${speakerInfo[n].imageSrc}</h2>
+    <h2>${speakerInfo[n].info}</h2>
     <hr class="smallHr">
     <p>${speakerInfo[n].paragraph}</p>
   </div>
