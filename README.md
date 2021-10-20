@@ -1,9 +1,9 @@
 Dota The International 2022
 
-> The official webstie for The International 2022.
+> Website built for Microverse Capstone 1. The theme is Dota The International 2022
 
-![screenshot](./ images/indexPage.png)
-![screenshot](./ images/aboutPage.png)
+![screenshot](./images/indexPage.png)
+![screenshot](./images/aboutPage.png)
 
 Webpage made using css and html, no frameworks involved. Used Javascript to display nabar and dynimcally render the speakers.
 
@@ -35,6 +35,13 @@ To get a local copy up and running in your machine:
 👤 Hamza Bin Ali Tarar
 
 - GitHub: [@Lockless404](https://github.com/lockless404)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
