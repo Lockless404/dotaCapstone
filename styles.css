@@ -96,6 +96,10 @@ header {
   margin-left: 6rem;
 }
 
+footer div {
+  font-family: 'Roboto', serif;
+}
+
 .menuIcon div {
   width: 30px;
   height: 5px;
@@ -124,7 +128,7 @@ header {
 }
 
 .homePage {
-  background-image:url(images/dotaBackgroundDark.jpg);
+  background-image: url(images/dotaBackgroundDark.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -137,7 +141,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image:url(images/dotaBackgroundDark.jpg);
+  background-image: url(images/dotaBackgroundDark.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -232,7 +236,7 @@ header {
 
 .homeH3 {
   font-family: 'Noto Sans', serif;
-  margin: 10px 0 0 0 ;
+  margin: 10px 0 0 0;
   font-size: 2rem;
   font-weight: bolder;
 }
@@ -394,7 +398,7 @@ hr {
   margin: 0.5rem 0 0.5rem 0;
 }
 
-.speakersInfo p{
+.speakersInfo p {
   font-size: 0.9rem;
   font-family: 'Lato', sans-serif;
   line-height: 1rem;
@@ -431,7 +435,7 @@ hr {
   box-shadow: inset 0 0 0 1000px rgba(250, 105, 61, 0.6);
 }
 
-.past h1{
+.past h1 {
   font-size: 3rem;
   font-family: 'Noto sans', serif;
   font-weight: 800;
@@ -473,9 +477,9 @@ hr {
 }
 
 .partnerLogos {
- display: inline-block;
- text-align: center;
- margin-bottom: 3.5rem;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 3.5rem;
 }
 
 .partnerLogo {
@@ -496,10 +500,6 @@ footer {
   width: 5rem;
 }
 
-footer div {
-  font-family: 'Roboto', serif;
-}
-
 @media (min-width: 768px) {
   .upper-nav {
     display: flex;
@@ -508,7 +508,7 @@ footer div {
   .top {
     display: unset;
   }
-  
+
   .navMenu {
     margin-right: 6rem;
     display: flex;
@@ -516,9 +516,8 @@ footer div {
     justify-content: space-between;
     align-items: center;
     width: 60%;
-    position:unset;
+    position: unset;
     height: unset;
-    display: flex;
     transform: unset;
   }
 
@@ -576,7 +575,7 @@ footer div {
     margin: 10px 0 10px 0;
   }
 
-  .joinButton{
+  .joinButton {
     display: none;
   }
 
@@ -645,7 +644,7 @@ footer div {
     display: none;
   }
 
-  footer {
+  .aboutFoot {
     background-color: #000;
   }
 
@@ -653,5 +652,4 @@ footer div {
     color: #fff;
     font-weight: 900;
   }
-
 }

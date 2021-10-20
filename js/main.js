@@ -1,7 +1,7 @@
 const menuIcon = document.querySelector('.menuIcon');
 const navMenu = document.querySelector('.navMenu');
 const navWords = document.querySelectorAll('.navWords');
-const speakers = document.querySelector('.allSpeakers')
+const speakers = document.querySelector('.allSpeakers');
 
 const speakerInfo = [
   {
@@ -69,6 +69,6 @@ function render(n) {
 </div>`;
 }
 
-for (let i = 0; i < speakerInfo.length; i +=1) {
-  render(i)
+for (let i = 0; i < speakerInfo.length; i += 1) {
+  render(i);
 }
