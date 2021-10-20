@@ -47,7 +47,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8vh;
+  height: 12vh;
 }
 
 .navMenu {
@@ -55,8 +55,8 @@ header {
   background-color: rgb(255, 255, 255);
   margin: 0;
   right: 0;
-  top: 8vh;
-  height: 92vh;
+  top: 11vh;
+  height: 89vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -153,7 +153,7 @@ footer div {
   box-sizing: border-box;
 }
 
-.homeH1 {
+.homeh1 {
   font-size: 2.5rem;
   font-family: 'Roboto', serif;
   color: rgb(157, 240, 240);
@@ -254,7 +254,14 @@ footer div {
   width: 100%;
 }
 
-h1 {
+h2 {
+  font-size: 2rem;
+  font-family: 'Lato', serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+h3 {
   font-size: 2rem;
   font-family: 'Lato', serif;
   font-weight: 800;
@@ -295,7 +302,7 @@ hr {
   width: 3.5rem;
 }
 
-.prog h1 {
+.prog h3 {
   font-size: 1.3rem;
   color: rgb(250, 105, 61);
   font-weight: bold;
@@ -332,7 +339,7 @@ hr {
   width: 100%;
 }
 
-.logoPage h1 {
+.logoPage h2 {
   color: #000;
 }
 
@@ -355,7 +362,7 @@ hr {
   align-items: center;
 }
 
-.speakers h1 {
+.speakers h2 {
   color: #000;
 }
 
@@ -380,13 +387,13 @@ hr {
   padding: 20px;
 }
 
-.speakersInfo h1 {
+.speakersInfo h3 {
   color: #000;
   font-size: 1.4rem;
   margin-bottom: 0;
 }
 
-.speakersInfo h2 {
+.speakersInfo h4 {
   color: rgb(250, 105, 61);
   font-size: 0.8rem;
   font-style: italic;
@@ -412,7 +419,7 @@ hr {
   width: 100%;
 }
 
-.pastPage h1 {
+.pastPage h2 {
   color: #000;
 }
 
@@ -435,7 +442,7 @@ hr {
   box-shadow: inset 0 0 0 1000px rgba(250, 105, 61, 0.6);
 }
 
-.past h1 {
+.past h2 {
   font-size: 3rem;
   font-family: 'Noto sans', serif;
   font-weight: 800;
@@ -472,7 +479,7 @@ hr {
   width: 100%;
 }
 
-.partner h1 {
+.partner h2 {
   margin-top: 2.5rem;
 }
 
@@ -483,8 +490,8 @@ hr {
 }
 
 .partnerLogo {
-  height: 6rem;
-  width: 12rem;
+  height: 5rem;
+  width: 10rem;
   margin: 5px;
 }
 
@@ -530,7 +537,7 @@ footer {
     margin-top: 6rem;
   }
 
-  .homeH1 {
+  .homeh1 {
     font-size: 4.5rem;
     margin-left: 3rem;
   }
@@ -567,7 +574,7 @@ footer {
     margin: 0 0.25rem 0 0.25rem;
   }
 
-  .prog h1 {
+  .prog h2 {
     margin: 10px 0 10px 0;
   }
 
@@ -596,10 +603,6 @@ footer {
 
   .speaker {
     flex-basis: 40%;
-  }
-
-  footer {
-    justify-content: center;
   }
 
   .aboutPage {
@@ -648,8 +651,11 @@ footer {
     background-color: #000;
   }
 
-  footer div {
+  .aboutFoot {
     color: #fff;
+  }
+
+  footer div {
     font-weight: 900;
   }
 }

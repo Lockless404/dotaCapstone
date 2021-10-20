@@ -61,8 +61,8 @@ function render(n) {
     <img src="${speakerInfo[n].imageSrc}" alt="">
   </div>
   <div class="speakersInfo">
-    <h1>${speakerInfo[n].name}</h1>
-    <h2>${speakerInfo[n].info}</h2>
+    <h3>${speakerInfo[n].name}</h3>
+    <h4>${speakerInfo[n].info}</h4>
     <hr class="smallHr">
     <p>${speakerInfo[n].paragraph}</p>
   </div>

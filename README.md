@@ -1,11 +1,9 @@
-Dota The International 2022
+### Dota The International 2022
 
-> Website built for Microverse Capstone 1. The theme is Dota The International 2022
+> Website built for Microverse Capstone 1. The theme is Dota The International 2022 Webpage made using css and html, no frameworks involved. Used Javascript to display nabar and dynimcally render the speakers.
 
 ![screenshot](./images/indexPage.png)
 ![screenshot](./images/aboutPage.png)
-
-Webpage made using css and html, no frameworks involved. Used Javascript to display nabar and dynimcally render the speakers.
 
 ## Built With
 
@@ -16,6 +14,10 @@ Webpage made using css and html, no frameworks involved. Used Javascript to disp
 ## Live Demo
 
 [Live Demo Link](https://lockless404.github.io/dotaCapstone/)
+
+## Presentation
+
+[A video presenting the features of the project](https://www.loom.com/share/95b29a4140ac45399b6673736f02294b)
 
 
 ## Getting Started
