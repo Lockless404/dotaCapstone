@@ -1,59 +1,43 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+### Dota The International 2022
 
-# Project Name
+> Website built for Microverse Capstone 1. The theme is Dota The International 2022 Webpage made using css and html, no frameworks involved. Used Javascript to display nabar and dynimcally render the speakers.
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./images/indexPage.png)
+![screenshot](./images/aboutPage.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- CSS
+- Javascript
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lockless404.github.io/dotaCapstone/)
+
+## Presentation
+
+[A video presenting the features of the project](https://www.loom.com/share/95b29a4140ac45399b6673736f02294b)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running in your machine:
 
+    1.Clone this repo or download the zip folder:
 
-To get a local copy up and running follow these simple example steps.
+      git clone https://github.com/Lockless404/dotaCapstone.git
 
-### Prerequisites
+    2.Navigate to the location of the folder in your machine:
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+      you@your-Pc-name:~$ cd <folder>
 
 ## Authors
 
-👤 **Author1**
+👤 Hamza Bin Ali Tarar
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Lockless404](https://github.com/lockless404)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -67,10 +51,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is unlicensed.
